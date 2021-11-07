@@ -1,0 +1,167 @@
+* {
+    margin:0;
+    padding:0;
+}
+.menus .menus_texts {
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.menus {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.menus_texts {
+    padding:30px;
+    margin-right:-40px;
+}
+
+.gmail, .images, .pontos, .logo {
+    margin-right:20px;
+}
+.pontos {
+    margin-top:0;
+}
+.gmail {
+    font-size:14px;
+}
+.images {
+    font-size:14px;
+}
+
+.gmail a, .images a {
+    text-decoration: none;
+    color:#111;
+    font-family: Helvetica;
+}
+
+.gmail a:hover, .images a:hover {
+    text-decoration: underline;
+}
+.logo img {
+    border:1px solid #000;
+    border-radius:20px 20px;
+    
+}
+.logo {
+    padding:20px;
+}
+
+.google_options {
+    display:flex;
+    align-items: center;
+    margin-top:5%;
+    flex-direction:column;
+}
+
+form {
+    margin-top:25px;
+}
+.search_button {
+   width:650px;
+   height:50px;
+   border-radius:40px 40px;
+   border:1px solid #DDDD;
+   padding-left:20px;
+   outline: none;
+
+}
+
+input[type=text]:hover {
+    box-shadow:1px 1px 10px #DDD;
+}
+
+a {
+    text-decoration: none;
+    color:#111;
+}
+.botoes {
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.button1 {
+    margin-right:20px;
+}
+
+.button1, .button2 {
+    padding:8px;
+    font-family:Arial, sans-serif;
+    border:none;
+    border-radius:4px 4px;
+    background-color:#f8f9fa;
+    user-select: none;
+    font-size:14px;
+   
+}
+.button1:hover, .button2:hover {
+    border:1px solid#dadce0;
+}
+
+.rodape_texts {
+    width:auto;
+    height:90px;
+    background-color: #f2f2f2;
+    
+    
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100%; */
+    min-width: 100%;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+.rodape_brasil, .rodape_menus {
+    margin-left:40px;
+}
+
+.border {
+    width:100%;
+    height:1px;
+    background-color: #dadce0;
+}
+.rodape_brasil {
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    color:#6f6f6f;
+}
+
+.rodape_menus {
+    display:flex;
+    justify-content: space-between;
+}
+.menu1 {
+    color:#6f6f6f;
+    
+}
+.menu_right {
+    list-style: none;
+    display:flex;
+    
+}
+.menu_left ul {
+    list-style: none;
+    display:flex;
+    color:#6f6f6f;
+}
+
+li {
+    margin-right:20px;
+}
+.menu_right , .menu_left {
+    padding:10px;
+    font-family:arial, sans-serif;
+    font-size:14px;
+}
+.menu_right a, .menu_left a {
+    color:#6f6f6f;
+}
+.menu_right a:hover, .menu_left a:hover {
+    text-decoration:underline;
+}
